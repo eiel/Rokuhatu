@@ -21,6 +21,7 @@
 		D65F6CE01904DB74006B1767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65F6CC21904DB73006B1767 /* UIKit.framework */; };
 		D65F6CE81904DB74006B1767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D65F6CE61904DB74006B1767 /* InfoPlist.strings */; };
 		D65F6CEA1904DB74006B1767 /* RokuhatuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F6CE91904DB74006B1767 /* RokuhatuTests.m */; };
+		D68DAFD1191A422D001498B2 /* HexaNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D68DAFD0191A422D001498B2 /* HexaNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D65F6CE51904DB74006B1767 /* RokuhatuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RokuhatuTests-Info.plist"; sourceTree = "<group>"; };
 		D65F6CE71904DB74006B1767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D65F6CE91904DB74006B1767 /* RokuhatuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RokuhatuTests.m; sourceTree = "<group>"; };
+		D68DAFCF191A422D001498B2 /* HexaNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexaNode.h; sourceTree = "<group>"; };
+		D68DAFD0191A422D001498B2 /* HexaNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexaNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D65F6CD01904DB74006B1767 /* Main.storyboard */,
 				D65F6CD31904DB74006B1767 /* ViewController.h */,
 				D65F6CD41904DB74006B1767 /* ViewController.m */,
+				D68DAFCF191A422D001498B2 /* HexaNode.h */,
+				D68DAFD0191A422D001498B2 /* HexaNode.m */,
 				D65F6CD61904DB74006B1767 /* Images.xcassets */,
 				D65F6CC51904DB74006B1767 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D65F6CD51904DB74006B1767 /* ViewController.m in Sources */,
+				D68DAFD1191A422D001498B2 /* HexaNode.m in Sources */,
 				D65F6CCF1904DB74006B1767 /* AppDelegate.m in Sources */,
 				D65F6CCB1904DB74006B1767 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				D65F6CEF1904DB74006B1767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D65F6CF01904DB74006B1767 /* Build configuration list for PBXNativeTarget "RokuhatuTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				D65F6CF21904DB74006B1767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
