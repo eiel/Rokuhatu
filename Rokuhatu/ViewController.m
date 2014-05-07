@@ -16,7 +16,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIColor *color = [UIColor redColor];
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
+    CGFloat alpha;
+    [color getRed:&red green:&green blue:&blue alpha:&alpha];
+    NSLog(@"red: %f, green: %f, blue: %f", red, green, blue);
+    
     
     NSTimer *myTimer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                                target:self
